@@ -1,3 +1,7 @@
+path{
+  fill: red;
+}
+
 path:hover {
   stroke: hsl(56, 89%, 55%) !important;
   stroke-width: 2px;
@@ -5,6 +9,7 @@ path:hover {
   fill: hsl(56, 89%, 55%);
   cursor: pointer;
 }
+
 
 #map-box {
   display: block;
@@ -16,7 +21,6 @@ path:hover {
   -webkit-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, 0.3);
   box-shadow: 0 15 px 30px 0 rgba(194, 22, 22, 0.3);
   border-radius: 10px 10px 10px 10px;
-  background: #6f94a6;
 
 }
 
@@ -252,3 +256,4 @@ body {
   border-radius: 10px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
+

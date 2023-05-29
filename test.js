@@ -165,7 +165,7 @@ function displayProvince(jsonData) {
                   <p>Vui vẻ, hoạt bát, mến khách</p>
                   <div class="location">
                       <ion-icon name="location"></ion-icon>
-                      <span>${jsonData.location1}</span>
+                      <span>${jsonData.location2}</span>
                   </div>
               </div>
               <div class="community-box">
@@ -177,7 +177,7 @@ function displayProvince(jsonData) {
                   <p>Chuyên nghiệp, lịch sự</p>
                   <div class="location">
                       <ion-icon name="location"></ion-icon>
-                      <span>${jsonData.location1}</span>
+                      <span>${jsonData.location3}</span>
                   </div>
               </div>
               <div class="community-box">
@@ -189,7 +189,7 @@ function displayProvince(jsonData) {
                   <p>Đam mê khám phá, năng nổ</p>
                   <div class="location">
                       <ion-icon name="location"></ion-icon>
-                      <span>${jsonData.location1}</span>
+                      <span>${jsonData.location4}</span>
                   </div>
               </div>
           </div>
