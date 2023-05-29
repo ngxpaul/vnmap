@@ -102,7 +102,7 @@ body {
 }
 
 .ex-title {
-
+  font-size: 20px;
   font-weight: 800;
   color: hsl(206, 34%, 20%);
   text-transform: uppercase;
@@ -247,8 +247,8 @@ body {
 
 
 .info-component {
-  width: 700px;
-  padding: 30px;
+  width: 100%;
+  padding: 80px 100px;
 }
 
 #info-box {
