@@ -247,7 +247,7 @@ body {
 
 
 .info-component {
-  width: 700px;
+  max-width: 830px;
   padding: 30px;
 }
 
@@ -256,4 +256,17 @@ body {
   border-radius: 10px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
+.info-component{
+  margin-top: 5px;
+}
+.subtitle{
+  margin-top: 100px;
+}
+#info-box1 {
+  position: absolute;
 
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px 0 rgba(7, 7, 7, 0.3);
+  z-index: 10;
+}
