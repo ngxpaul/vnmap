@@ -212,3 +212,21 @@ $(document).on('click', 'path', function (e) {
         $('#info-box').html(displayProvince(data));
     });
 });
+$(document).ready(function () {
+    $("svg").svgPanZoom();
+
+    // Event listener for mouseover
+    $(document).on('mouseover', 'path', function (e) {
+        var province = findProvince(e.target.id);
+        // Display the province name
+        $("#info-box1").text(province.name);
+        $("#info-box1").css('display', 'block');
+        $("#info-box1").css({ position: "absolutely", left: e.pageX +30, top: e.pageY  , 'z-index':1000});
+    });
+
+    // Event listener for mouseout
+    $(document).on('mouseout', 'path', function (e) {
+        // Hide the province name when the mouse moves out
+        $("#info-box1").css('display', 'none');
+    });
+});
