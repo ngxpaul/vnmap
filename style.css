@@ -1,5 +1,5 @@
 path{
-  fill: red;
+  fill: #db2017;
 }
 
 path:hover {
@@ -16,12 +16,16 @@ path:hover {
   position: fixed;
   top: 0;
   left: 0;
-  width: 600px;
+  width: 700px;
   height: 800px;
   -webkit-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, 0.3);
   box-shadow: 0 15 px 30px 0 rgba(194, 22, 22, 0.3);
   border-radius: 10px 10px 10px 10px;
-
+  background: linear-gradient(to left,rgba(255, 255, 255, 0.566) , rgba(255, 255, 255, 0.827)) ,url("https://images.unsplash.com/photo-1531737212413-667205e1cda7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=434&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
 }
 
 * {
@@ -247,9 +251,8 @@ body {
 /* vietnam component */
 .vietnam-component{
   position: relative;
-  /* width: 50%; */
+  width: 100%;
   min-width: 759,6px;
-  max-width: 759.6px;
   padding: 80px 80px;
 }
 
@@ -292,7 +295,7 @@ body {
   background: white;
   padding: 35px 50px;
   border-radius: 25px;
-  font-size: 12px;
+  font-size: 13px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.266);
   color: hsl(225, 8%, 42%);
 }
@@ -427,7 +430,7 @@ body {
 
 .info-component {
   width: 100%;
-  padding: 80px 100px;
+  padding: 100px 100px;
 }
 
 #info-box {
