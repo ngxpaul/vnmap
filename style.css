@@ -405,6 +405,10 @@ body {
   background: #1e90ff;
   color: white;
 }
+.step-box.even-step {
+  
+  color: black;
+}
 
 
 .step-video {
@@ -427,8 +431,17 @@ body {
 }
 
 #info-box {
+  left: 700px;
   position: absolute;
   border-radius: 10px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
+#info-box1 {
+  position: absolute;
+  color: black;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px 0 rgba(7, 7, 7, 0.3);
+ 
+}
