@@ -221,7 +221,7 @@ $(document).ready(function () {
         // Display the province name
         $("#info-box1").text(province.name);
         $("#info-box1").css('display', 'block');
-        $("#info-box1").css({ position: "absolutely", left: e.pageX, top: e.pageY,});
+        $("#info-box1").css({ position: "absolutely", left: e.pageX +30, top: e.pageY  , 'z-index':1000});
     });
 
     // Event listener for mouseout
