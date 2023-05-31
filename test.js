@@ -211,6 +211,10 @@ $(document).on('click', 'path', function (e) {
         $("#info-box").css({ position: "absolutely", left: 650, top: 0 });
         $('#info-box').html(displayProvince(data));
     });
+    $("html,body").animate({
+        scrollTop: 0
+    }, 600);
+    return false;
 });
 $(document).ready(function () {
     $("svg").svgPanZoom();
@@ -229,4 +233,23 @@ $(document).ready(function () {
         // Hide the province name when the mouse moves out
         $("#info-box1").css('display', 'none');
     });
+});
+// scroll
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $("#arrow ion-icon").fadeIn();
+        }
+        else {
+            $("#arrow ion-icon").fadeOut();
+        }
+
+    });
+    $("#arrow ion-icon").on('click', function () {
+        $("html,body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
 });

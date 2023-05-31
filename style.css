@@ -8,6 +8,8 @@ path:hover {
   stroke-linejoin: round;
   fill: hsl(56, 89%, 55%);
   cursor: pointer;
+  /* transform: scale(-3);
+  transition: .5 ease; */
 }
 
 
@@ -191,6 +193,10 @@ body {
   border-radius: 15px;
   padding: 15px 10px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.community-box{
+  cursor: pointer;
 }
 
 .community-box .community-img {
@@ -438,13 +444,31 @@ body {
   position: absolute;
   border-radius: 10px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  cursor: auto;
 }
 
 #info-box1 {
   position: absolute;
   color: black;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.579);
   border-radius: 2px;
   box-shadow: 0 10px 20px 0 rgba(7, 7, 7, 0.3);
- 
+  padding: 3px 5px;
+}
+
+
+ion-icon.arrow{
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  background-color: #3b79c9  ;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 10000;
+  padding: 10px;
 }
